@@ -5,7 +5,7 @@ describe 'Fazer um requisicao' do
         @body ={
             "name": "Lucas rspec1",
             "last_name": "Teste rspec1",
-            "email": "teste1@testerspec.com",
+            "email": "teste133@testerspec.com",
             "age": "24",
             "phone": "21984759575",
             "address": "Rua tres rspec",

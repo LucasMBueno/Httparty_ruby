@@ -8,7 +8,9 @@ describe 'Fazer um requisicao' do
         puts @GET.body
         #puts @GET.parsed_response['data']['attributes']['name']
         @nome =  @GET.parsed_response['data']['attributes']['name']
-        expect(@nome).to eq 'Lucas rspec12'
+        puts '--------------------- teste nome'
+        puts @nome
+        expect(@nome).to eq 'Lucas rspec121'
         @last =  @GET.parsed_response['data']['attributes']['last-name']
         expect(@last).to eq 'Teste rspec12'
         @email =  @GET.parsed_response['data']['attributes']['email']
